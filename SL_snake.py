@@ -156,7 +156,7 @@ class Game:
         self.Win_width = Width
         self.Win_height = Height
         self.surface = pygame.display.set_mode((self.Win_width, self.Win_height))
-        pygame.display.set_caption('贪吃蛇游戏 - Made with Pygame')
+        pygame.display.set_caption('Made with Pygame')
         self.score = 0
         self.frame = 0
         self.running = True
@@ -167,7 +167,7 @@ class Game:
         self.max_fps = 12
         self.fps = self.initial_fps
 
-        self.font = pygame.font.Font(None, 32)
+        self.font = pygame.font.Font('Minecraft.ttf', 20)
 
         # 生成地图尺寸
         self.map_width = 40
